@@ -1,0 +1,49 @@
+site_name: Learn Kubernetes
+repo_url: https://github.com/patashale/learn-kubernetes
+repo_name: patashale/learn-kubernetes
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.footer
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/patashale
+      name: Patashale™ on LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/patashale
+      name: Patashale™ on GitHub
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/patashale_in
+      name: Patashale™ on Twitter
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.social/@patashale
+      name: Patashale™ on Mastodon Social
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@patashale
+      name: Patashale™ on Fosstodon
+
+nav:
+  - Know before you start: index.md
+
+
+copyright: Copyright &copy; 2023 Patashale™
