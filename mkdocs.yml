@@ -1,4 +1,7 @@
 site_name: Learn Kubernetes
+site_url: https://www.patashale.in/learn-kubernetes/
+site_author: Patashale™
+site_description: Learn everything about Kubernetes here at Patashale™.
 repo_url: https://github.com/patashale/learn-kubernetes
 repo_name: patashale/learn-kubernetes
 theme:
