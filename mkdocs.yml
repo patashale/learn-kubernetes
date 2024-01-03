@@ -71,6 +71,8 @@ plugins:
 
 nav:
   - Home: index.md
+  - Concepts: 
+      Components: concepts/components.md
   - Compute: compute.md
   - Storage: storage.md
   - Networking: networking.md
