@@ -19,6 +19,8 @@ It is often referred to as `K8s`, where `8` stands for the number of letters bet
     - It rolls out changes to your workloads in a phased manner while monitoring your health to determine its readiness and liveness
     - If the change applied is unable to attain the desired state, it will roll back the changes to their previous known healthy state
 
+</div>
+<div class="grid cards" markdown>
 
 - __Self Healing__
        
@@ -30,6 +32,8 @@ It is often referred to as `K8s`, where `8` stands for the number of letters bet
     - reschedule the workloads when node goes down
     - gracefully terminates the workloads that fail to attain the health check rule and makes them available to end users when they are ready to serve again
 
+</div>
+<div class="grid cards" markdown>
 
 - __Horizontal Scaling__
    
@@ -37,17 +41,26 @@ It is often referred to as `K8s`, where `8` stands for the number of letters bet
 
     It allows your workloads to be scaled horizontally based on demand or on certain events that are configured by you
 
+</div>
+<div class="grid cards" markdown>
+
 - __Storage Management__
    
     -----
     
     It mounts to the storage system of your choice while also taking care of their lifecycle
 
+</div>
+<div class="grid cards" markdown>
+
 - __Secret & Configuration Management__
    
     -----
 
     It allows you to create, update and consume the secrets and configuration required for your workloads without rebuilding its image and exposing the secrets as plain text
+
+</div>
+<div class="grid cards" markdown>
 
 -   __Service Discovery and Load Balancing__
    
@@ -56,11 +69,17 @@ It is often referred to as `K8s`, where `8` stands for the number of letters bet
     - It comes with an out-of-the-box service discovery mechanism to discover your workloads
     - It gives workloads their own IP addresses and a single DNS name for a set of workloads and can load balance across them
 
+</div>
+<div class="grid cards" markdown>
+
 -  __Batch Execution__
    
     -----
 
     It allows you to execute certain jobs until the desired result is attained
+
+</div>
+<div class="grid cards" markdown>
 
 -   __IPv4 & IPv6 Dual-stack__
    
@@ -68,11 +87,17 @@ It is often referred to as `K8s`, where `8` stands for the number of letters bet
 
     It allocates IPv4 and IPv6 addresses to workloads
 
+</div>
+<div class="grid cards" markdown>
+
 -  __Customization__
    
     -----
 
     It is highly customizable and extensible without requiring you to submit a pull, merge or change request to the upstream source code
+
+</div>
+<div class="grid cards" markdown>
 
 -   __Resource Management__
    
