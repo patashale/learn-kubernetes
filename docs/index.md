@@ -1,4 +1,9 @@
+---
 
+hide:
+  - navigation
+
+---
 ### Introduction
 
 **Kuberenetes** is an open-source platform for the systematic deployment, scaling and management of containerized workloads.
